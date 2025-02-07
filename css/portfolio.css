@@ -1,0 +1,149 @@
+:root {
+    --button_background: #A43DFF;
+    --button_text: #F9F2FF;
+    --primary_background: #F7EBFF;
+    --secondary_background: #132239;
+    --paragraph_text: #5F6979;
+    --main_text: #132237;
+}
+
+.portfolio {
+    width: 100%;
+    height: calc(100vh + 300px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio .portfolio_header {
+    text-align: center;
+    padding: 100px 0 40px 0;
+}
+
+.portfolio .portfolio_header h2 {
+    font-size: 40px;
+    color: var(--main_text);
+    margin-bottom: 20px;
+}
+
+.portfolio .portfolio_header p {
+    font-size: 20px;
+    color: var(--paragraph_text);
+}
+
+.portfolio .portfolio_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 200px;
+}
+
+.portfolio .portfolio_container .portfolio_card {
+    width: calc(33.33% - 20px);
+    height: fit-content;
+    padding-bottom: 20px;
+    background-color: var(--primary_background);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio .portfolio_container .portfolio_card .portfolio_img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.portfolio .portfolio_container .portfolio_card .portfolio_content {
+    padding: 25px;
+}
+
+.portfolio .portfolio_container .portfolio_card .portfolio_content h4 {
+    color: var(--paragraph_text);
+    font-size: 18px;
+}
+
+.portfolio .portfolio_container .portfolio_card .portfolio_content h3 {
+    color: var(--main_text);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.portfolio .portfolio_container .portfolio_card .portfolio_content p {
+    color: var(--paragraph_text);
+    margin-bottom: 20px;
+}
+
+.portfolio .portfolio_container .portfolio_card .portfolio_content a {
+    max-width: fit-content;
+    background-color: transparent;
+    border: 1px solid var(--button_background);
+    padding: 7px 15px;
+    border-radius: 10px;
+    color: var(--button_background);
+}
+
+.portfolio .portfolio_container .portfolio_card .portfolio_content a:hover {
+    background-color: var(--button_background);
+    
+    color: var(--button_text);
+}
+
+.portfolio .more {
+    margin: 40px auto;
+}
+
+.portfolio .more a {
+    max-width: fit-content;
+    background-color: var(--button_background);
+    padding: 7px 15px;
+    border-radius: 10px;
+    color: var(--button_text);
+} 
+
+.portfolio .more a:hover {
+    background-color: transparent;
+    border: 1px solid var(--button_background);
+    color: var(--button_background);
+}
+
+.portfolio .project_idea_container {
+    min-height: 400px;
+    background-color: var(--secondary_background);
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.portfolio .project_idea_container h2 {
+    color: var(--button_text);
+    font-size: 40px;
+}
+
+.portfolio .project_idea_container p {
+    color: var(--paragraph_text);
+    margin: 25px 0 50px 0;
+    font-size: 18px;
+}
+
+.portfolio .project_idea_container .project_idea_link a {
+    max-width: fit-content;
+    background-color: var(--button_background);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: var(--button_text);
+}
+
+.portfolio .project_idea_container .project_idea_link a:hover {
+    background-color: transparent;
+    border: 1px solid var(--button_text);
+    color: var(--button_text);
+}
+
+.portfolio .fa-arrow-right {
+    margin-left: 15px;
+}

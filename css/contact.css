@@ -1,0 +1,206 @@
+:root {
+    --button_background: #A43DFF;
+    --button_text: #F9F2FF;
+    --primary_background: #F7EBFF;
+    --secondary_background: #132239;
+    --paragraph_text: #5F6979;
+    --main_text: #132237;
+}
+
+.contact {
+    width: 100%;
+    background: linear-gradient(to right, #F0F1F3, #FCF1FF, #F0F1F3);
+    padding: 100px 200px 0 200px;
+
+}
+
+.contact .contact_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 650px;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    
+}
+
+.contact .contact_container .contact_left {
+    width: 50%;
+    height: inherit;
+    padding: 100px 25px 0 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact .contact_container .contact_left h3 {
+    font-size: 30px;
+    color: var(--main_text);
+}
+
+.contact .contact_container .contact_left p {
+    font-size: 15px;
+    color: var(--paragraph_text);
+    padding-right: 50px;
+}
+
+.contact .contact_container .contact_left .contact_details_1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact_container .contact_left .contact_details_1 .contact_details_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 85%;
+    min-width: fit-content;
+    height: 70px;
+    border-radius: 7px;
+    padding-left: 20px;
+    background-color: transparent;  
+    transition: box-shadow 0.3s ease;
+
+}
+
+.contact_icon {    
+    margin-right: 10px;
+    color: #F7EBFF;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+.contact_container .contact_left .contact_details_1 .contact_details_box:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    
+}
+
+.contact_icon:hover {
+    background-color: var(--button_background);
+}
+
+.contact_container .contact_desc h4 {
+    font-size: 15px;
+    color: var(--main_text);
+}
+
+.contact_container .contact_desc p {
+    font-size: 15px;
+    color: var(--paragraph_text);
+}
+
+.contact .contact_details_2 ul {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.contact .contact_details_2 .contact_handles a i {
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    color: var(--button_background);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.contact .contact_details_2 a i:hover {
+    background-color: var(--button_background);
+    color: var(--button_text);
+}
+
+.contact .contact_container .contact_right {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px 25px 0 25px;    
+}
+
+.contact .contact_container .contact_right p {
+    color: var(--paragraph_text);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: -20px;
+
+}
+
+.contact .contact_form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 25px;
+    color: var(--paragraph_text);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: var(--button_background) 1px solid;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border-bottom: 3px solid var(--button_background);
+}
+
+.contact .contact_form .form_budget {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 20px;
+}
+
+.budget {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+
+.budget input, .subject input {
+    width: 100%;
+}
+
+.budget label, .subject label {
+    width: 100%;
+}
+
+
+.form_btn {
+    max-width: fit-content;
+    background-color: var(--button_background);
+    border: 1px solid var(--button_background);
+    padding: 10px 40px;
+    border-radius: 3px;
+    color: var(--button_text);
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+button i {
+    margin-left: 20px;
+}
+
+.form_btn:hover {
+    background-color: transparent;
+    color: var(--button_background);
+}

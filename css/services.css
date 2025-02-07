@@ -1,0 +1,83 @@
+:root {
+    --button_background: #A43DFF;
+    --button_text: #F9F2FF;
+    --primary_background: #F7EBFF;
+    --secondary_background: #132239;
+    --paragraph_text: #5F6979;
+    --main_text: #132237;
+}
+
+.services {
+    width: 100%;
+    background: linear-gradient(to right, #F0F1F3, #FCF1FF, #F0F1F3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.services .services_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 200px;
+}
+
+.services .services_left h2 {
+    font-size: 40px;
+    color: var(--main_text);
+}
+
+.services .services_left p {
+    font-size: 18px;
+    color: var(--paragraph_text);
+    font-weight: 500;
+}
+
+.services .services_left a {
+    max-width: fit-content;
+    background-color: var(--button_background);
+    padding: 7px 15px;
+    border-radius: 3px;
+    color: var(--button_text);
+    border: 1px solid var(--button_background);
+}
+
+.services .services_left a:hover {
+    background-color: transparent;
+    color: var(--button_background);
+}
+
+.services .services_right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.services .services_right .services_card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.services .services_right .services_card h3 {
+    color: var(--main_text);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.services .services_right .services_card p {
+    color: var(--paragraph_text);
+    font-size: 16px;
+}
+
+.services .services_right .services_card:hover {
+    border-left: var(--button_background) 5px solid;
+    cursor: pointer;
+}

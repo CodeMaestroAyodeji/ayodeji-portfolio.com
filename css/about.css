@@ -1,0 +1,120 @@
+:root {
+    --button_background: #A43DFF;
+    --button_text: #F9F2FF;
+    --primary_background: #F7EBFF;
+    --secondary_background: #132239;
+    --paragraph_text: #5F6979;
+    --main_text: #132237;
+}
+
+.about {
+    background: linear-gradient(to right, #FFFFFF, #FCF1FF, #F5DCFA);
+    padding-top: 80px;
+}
+
+.about .about_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0 200px;
+    background-color: #fff;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+.about .section_divide {
+    width: 50%;
+    height: inherit;
+}
+
+.about .about_right {
+    padding: 150px 150px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about .about_title {
+    font-size: 30px;
+    color: var(--main_text);
+}
+
+.about .about_desc {
+    color: var(--paragraph_text);
+}
+
+.about .about_link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.about .about_link a {
+    max-width: fit-content;
+    background-color: var(--button_background);
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: var(--button_text);
+    border: 1px solid var(--button_background);
+}
+
+.about .about_link a .fa-download {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.about .about_link a:hover {
+    background-color: transparent;
+    color: var(--button_background);
+}
+
+.about .about_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.about .about_left .about_img {
+    background-color: var(--primary_background);
+    width: 350px;
+    height: 400px;
+    margin: 100px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.about .about_left .social_handles ul {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    width: 250px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 0px 0px 0 150px;
+    display: inline-flex;
+    margin-top: 20px;
+    top: 430px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about .about_left .social_handles ul li a i {
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px auto;
+    color: var(--button_background);
+    border-radius: 5px;
+}
+
+.about .about_left .social_handles ul li i:hover {
+    background-color: var(--button_background);
+    color: var(--button_text);
+
+}
+
+.about .about_left .social_handles ul li a:hover {
+    color: var(--button_text);
+}

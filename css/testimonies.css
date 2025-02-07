@@ -1,0 +1,107 @@
+:root {
+    --button_background: #A43DFF;
+    --button_text: #F9F2FF;
+    --primary_background: #F7EBFF;
+    --secondary_background: #132239;
+    --paragraph_text: #5F6979;
+    --main_text: #132237;
+}
+
+.testimonies {
+    background: linear-gradient(to right, #FFFFFF, #FCF1FF, #F5DCFA);
+    height: fit-content;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.testimonies .clients_logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0 200px;
+    flex-wrap: wrap;
+}
+
+.testimonies .clients_logo img {
+    width: 200px;
+    height: 100px;
+}
+
+.testimon_card {
+    display: none;
+    border-radius: 8px;
+    padding: 50px 50px;
+    text-align: center;
+    height: 300px;
+}
+
+.testimon_card.active {
+    display: block;
+}
+
+.testimon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+.testimon_desc {
+    color: var(--paragraph_text);
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+.testimon_name {
+    padding-bottom: 10px;
+    color: var(--main_text);
+    font-size: 20px;
+}
+
+.testimon_title {
+    color: var(--paragraph_text);
+    font-size: 18px;
+}
+
+.testimon_prev, .testimon_next {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.testimon_prev {
+}
+
+.testimon_indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.indicator {
+    width: 7px;
+    height: 7px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.indicator.active {
+    background-color: #333;
+    width: 25px;
+    height: 5px;
+    border-radius: 20%;
+}

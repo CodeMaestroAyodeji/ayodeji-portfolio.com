@@ -1,0 +1,117 @@
+:root {
+    --button_background: #A43DFF;
+    --button_text: #F9F2FF;
+    --primary_background: #F7EBFF;
+    --secondary_background: #132239;
+    --paragraph_text: #5F6979;
+    --main_text: #132237;
+}
+
+.blog {
+    margin-top: 600px;
+    padding-top: 100px 200px;
+    background: linear-gradient(to right, #FFFFFF, #FCF1FF, #F5DCFA);
+}
+
+.section_title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section_title h2 {
+    font-size: 40px;
+    color: var(--main_text);
+    margin-bottom: 20px;
+}
+
+.section_title p {
+    font-size: 16px;
+    color: var(--paragraph_text);
+    margin-bottom: 50px;
+}
+
+.blog_container {
+    display: flex;  
+    align-items: center;  
+    position: relative;  
+    overflow: hidden;  
+    width: 100%;  
+    max-width: calc(100% - 400px);
+    margin: auto;  
+    height: fit-content;
+}
+
+.blog_cards {
+    display: flex;  
+    transition: transform 0.3s ease;  
+    overflow: hidden;
+}
+
+.blog_card {
+    min-width: 250px;
+    margin: 0 10px; 
+    background-color: #fff;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    cursor: pointer;  
+}
+
+.card_img {
+    width: 100%;
+    height: 200px;  
+    border-top-left-radius: 8px;  
+    border-top-right-radius: 8px; 
+}
+
+.blog_content {  
+    padding: 15px;  
+}  
+
+.date_comments {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;  
+    color: var(--paragraph_text);
+    margin-bottom: 20px; 
+}  
+
+.blog_title {  
+    font-size: 16px;  
+    margin: 5px 0; 
+    color: var(--main_text); 
+}  
+
+.blog_desc {  
+    font-size: 14px;  
+    color: var(--paragraph_text);
+}  
+
+button.prev,  
+button.next {  
+    background-color: transparent;  
+    border: none;  
+    font-size: 24px;  
+    cursor: pointer;  
+    z-index: 10;
+}  
+
+.blog_indicators {  
+    text-align: center;  
+    margin-top: 10px;  
+}  
+
+.blog_indicators span {  
+    height: 8px;  
+    width: 8px;  
+    margin: 0 5px;  
+    background-color: var(--paragraph_text);  
+    border-radius: 15%;  
+    display: inline-block;  
+}  
+
+.blog_indicators .active {  
+    background-color: var(--button_background); 
+    width: 25px;
+}
+

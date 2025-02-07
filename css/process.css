@@ -1,0 +1,102 @@
+:root {
+    --button_background: #A43DFF;
+    --button_text: #F9F2FF;
+    --primary_background: #F7EBFF;
+    --secondary_background: #132239;
+    --paragraph_text: #5F6979;
+    --main_text: #132237;
+}
+
+.process {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #FFFFFF, #FCF1FF, #F5DCFA);
+    padding: 200px 200px 0 200px;
+}
+
+.process .section_divide {
+    width: 50%;
+    height: inherit;
+}
+
+.process .process_left {
+    padding: 100px 100px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.process .process_left h2 {
+    color: var(--main_text);
+    font-size: 35px;
+}
+
+.process .process_left p {
+    color: var(--paragraph_text);
+}
+
+.process .process_right {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: -200px;
+    
+}
+
+.process .process_right .right_box {
+    width: calc(50% - 10px);
+    background-color: #FFFFFF;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px 0 0 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.inner_process_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.process_right .right_box_1 {
+    margin-top: -25px !important;
+}
+
+.process_right .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #F7EBFF;
+    color: var(--button_text);
+}
+
+.inner_process_content i {
+    color: var(--button_background);
+    margin: 16px;
+    font-size: 28px;
+}
+
+.process_right .icon:hover {
+    background-color: var(--button_background);
+    color: var(--button_text);
+}
+
+.inner_process_content i:hover {
+    color: var(--button_text);
+}
+
+.process .process_right .inner_process_content h3 {
+    color: var(--main_text);
+    font-size: 22px;
+}
+
+.process .process_right .inner_process_content p {
+    color: var(--paragraph_text);
+}
