@@ -144,6 +144,18 @@ footer {
     gap: 15px;
 }
 
+.footer_left {
+    width: 25%;
+}
+
+.footer_middle {
+    width: 50%;
+}
+
+.footer_right {
+    width: 25%;
+}
+
 .footer_nav ul li a {
     color: var(--primary_background);
     font-size: 15px;
