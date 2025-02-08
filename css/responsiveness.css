@@ -1320,14 +1320,14 @@
 
     .header_nav {
         width: 40%;
-        height: fit-content;
+        height: 100vh;
         padding-bottom: 25px;
     }
 
     .header_nav li {
         text-align: justify;
-        padding-left: 50px;
-        font-size: 13px;
+        padding-left: 30px;
+        font-size: 15px;
     }
 
     .logo a .brand {
@@ -1855,14 +1855,14 @@
 
     .header_nav {
         width: 40%;
-        height: fit-content;
+        height: 100vh;
         padding-bottom: 25px;
     }
 
     .header_nav li {
         text-align: justify;
-        padding-left: 40px;
-        font-size: 13px;
+        padding-left: 30px;
+        font-size: 15px;
     }
 
     .welcome_left {
@@ -2089,14 +2089,14 @@
 
     .header_nav {
         width: 40%;
-        height: fit-content;
+        height: 100vh;
         padding-bottom: 25px;
     }
 
     .header_nav li {
         text-align: justify;
-        padding-left: 30px;
-        font-size: 11px;
+        padding-left: 20px;
+        font-size: 15px;
     }
 
     .welcome {
