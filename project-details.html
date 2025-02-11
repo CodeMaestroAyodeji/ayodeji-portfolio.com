@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+
+    <!-- Bootstrap and Fontawesomes -->
+    <link rel="stylesheet" href="./css/assets/icons/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/project-details.css">
+    <link rel="stylesheet" href="./css/responsiveness.css">
+</head>
+
+<body>
+
+    <header id="welcome">
+        <div class="logo">
+            <a href="index.html">
+                <div class="brand">
+                    <h1>A</h1>
+                </div>
+                <h2>Ayodeji</h2>
+            </a>
+        </div>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+        <nav class="header_nav" id="nav-menu">
+            <ul class="nav_bar">
+                <li class="nav_item"><a href="index.html">Home</a></li>
+                <li class="nav_item"><a href="index.html#about">About</a></li>
+                <li class="nav_item"><a href="index.html#process">Process</a></li>
+                <li class="nav_item"><a href="index.html#portfolio">Portfolio</a></li>
+                <li class="nav_item"><a href="index.html#blog">Blog</a></li>
+                <li class="nav_item"><a href="index.html#services">Services</a></li>
+                <li class="nav_item"><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="container my-5">
+        <div class="row">
+            <!-- Project Header -->
+            <div class="project_header">        
+                <h1 id="project-title"></h1>
+                <p id="project-description"></p>
+            </div>
+
+            <!-- Project Content -->
+            <div class="col-md-6">
+                <img id="project-image" class="img-fluid rounded shadow" src="" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2 class="fw-bold"></h2>
+                <p class="text-muted"></p>
+                
+                <h4 class="mt-4">Overview</h4>
+                <p id="project-overview"></p>
+    
+                <h4 class="mt-4">Key Features</h4>
+                <ul id="project-features" class="list-group list-group-flush"></ul>
+                
+                <h4 class="mt-4">Project Stack</h4>
+                <ul id="project-stacks" class="list-group list-group-flush"></ul>
+    
+                <div class="mt-4">
+                    <a id="live-link" href="#" class="btn btn-primary me-2" target="_blank">View Live Project</a>
+                    <a id="github-link" href="#" class="btn btn-outline-secondary" target="_blank">GitHub Repository</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Footer -->
+        <div class="project_footer mt-5">
+            <p>Want to build something similar? <a href="index.html#contact">Let's work together!</a></p>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="logo footer_left foot">
+            <a href="index.html">
+                <div class="brand">
+                    <h1>A</h1>
+                </div>
+                <h2>Ayodeji</h2>
+            </a>
+        </div>
+        
+        <div class="footer_middle foot">
+            <nav class="footer_nav">
+                <ul class="nav_bar">
+                    <li class="nav_item"><a href="index.html">Home</a></li>
+                    <li class="nav_item"><a href="index.html#about">About</a></li>
+                    <li class="nav_item"><a href="index.html#process">Process</a></li>
+                    <li class="nav_item"><a href="index.html#portfolio">Portfolio</a></li>
+                    <li class="nav_item"><a href="index.htmlindex.html#blog">Blog</a></li>
+                    <li class="nav_item"><a href="index.html#testimonies">Testimony</a></li>
+                    <li class="nav_item"><a href="index.html#services">Services</a></li>
+                    <li class="nav_item"><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer_right foot footer_copyright">
+            <h5>Copyright &copy; <span id="year"></span></h5>
+        </div>
+
+    </footer>
+
+    <button id="backToTopBtn" class="back-to-top" onclick="scrollToTop()">↑ Back to Top</button>
+
+    <!-- <script src="./js/blog.js"></script>
+    <script src="./js/testimonies.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="./js/project-details.js"></script>
+    <script src="./js/main.js"></script>
+
+    
+</body>
+
+</html>

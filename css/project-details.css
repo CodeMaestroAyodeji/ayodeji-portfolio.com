@@ -1,0 +1,68 @@
+:root {
+    --button_background: #A43DFF;
+    --button_text: #F9F2FF;
+    --primary_background: #F7EBFF;
+    --secondary_background: #132239;
+    --paragraph_text: #5F6979;
+    --main_text: #132237;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    max-width: 900px;
+}
+
+.project_header h1 {
+    text-align: center;
+    color: var(--main_text);
+}
+
+.project_header p {
+    text-align: center;
+    color: var(--paragraph_text);
+}
+
+img {
+    border-radius: 10px;
+}
+
+h2 {
+    color: var(--main_text);
+}
+
+p {
+    color: var(--paragraph_text);
+}
+
+ul.list-group li {
+    padding: 10px;
+}
+
+.mt-4 .btn-primary {
+    background-color: var(--button_background) !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--button_background);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--button_background);
+    color: white;
+}
+
+
+.btn {
+    transition: all 0.3s ease-in-out;
+    opacity: 1 !important;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
