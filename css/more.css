@@ -1,0 +1,32 @@
+body {
+    background-color: #F7EBFF;
+}
+
+.container {
+    height: fit-content;
+}
+
+.portfolio_card {
+    height: fit-content;
+    background-color: var(--primary_background);
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio_content {
+    padding: 20px;
+}
+
+/* @media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 45%;
+        margin: 50px auto 0px auto;
+    }
+
+    .back-to-top {
+        right: 100px;
+    }
+
+
+} */

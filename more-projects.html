@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
-
-    <!-- Bootstrap and Fontawesomes -->
-    <link rel="stylesheet" href="./css/assets/icons/css/all.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project</title>
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/project-details.css">
-    <link rel="stylesheet" href="./css/responsiveness.css">
-</head>
-
+        <!-- Bootstrap and Fontawesomes -->
+        <link rel="stylesheet" href="./css/assets/icons/css/all.css">
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- <link rel="stylesheet" href="./css/project-details.css"> -->
+        <link rel="stylesheet" href="./css/responsiveness.css">
+        <link rel="stylesheet" href="./css/more.css">
+    </head>
 <body>
-
     <header id="welcome">
         <div class="logo">
             <a href="index.html">
@@ -41,107 +40,128 @@
         </nav>
     </header>
     
-    <section class="section portfolio" id="portfolio">
-        <div class="portfolio_header">
-            <h2 class="portfolio_title">My Work</h2>
-            <p class="portfolio_desc">
-                From custom websites to business solutions, I’ve helped clients turn ideas into reality.
-            </p>
+    <section class="section portfolio container my-5" id="portfolio">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="portfolio_title">My Work</h2>
+                <p class="portfolio_desc">
+                    From custom websites to business solutions, I’ve helped clients turn ideas into reality.
+                </p>
+            </div>
         </div>
-
-        <div class="portfolio_container">
-            <div class="portfolio_card card_1">
-                <img src="./images/logos/vito_bus_ltd.png" alt="" class="portfolio_img">
-                <div class="portfolio_content">
-                    <h4>Website</h4>
-                    <h3>Vito Business</h3>
-                    <p>A dynamic and innovative company committed to empowering small and medium-scale businesses through strategic consultancy ...</p>
-                    <a href="project-details.html?id=vito_bus" class="project_link" target="_blank">Case Study<i class="fas fa-arrow-right"></i></a>
+    
+        <div class="row g-5"> <!-- Bootstrap Grid for better spacing -->
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="portfolio_card">
+                    <img src="./images/logos/vito_bus_ltd.png" alt="" class="portfolio_img img-fluid">
+                    <div class="portfolio_content">
+                        <h4>Website</h4>
+                        <h3>Vito Business</h3>
+                        <p>A dynamic and innovative company committed to empowering small and medium-scale businesses through strategic consultancy ...</p>
+                        <a href="project-details.html?id=vito_bus" class="project_link" target="_blank">Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio_card card_2">
-                <img src="./images/logos/swift_errands.png" alt="" class="portfolio_img">
-                <div class="portfolio_content">
-                    <h4>Website</h4>
-                    <h3>Swift Errands</h3>
-                    <p>A fast and reliable personal shopping and delivery service specializing in groceries, household items, office supplies, and party souvenirs.</p>
-                    <a href="project-details.html?id=swift_errands" class="project_link" target="_blank">Case Study<i class="fas fa-arrow-right"></i></a>
+    
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="portfolio_card">
+                    <img src="./images/logos/swift_errands.png" alt="" class="portfolio_img img-fluid">
+                    <div class="portfolio_content">
+                        <h4>Website</h4>
+                        <h3>Swift Errands</h3>
+                        <p>A fast and reliable personal shopping and delivery service specializing in groceries, household items, office supplies, and party souvenirs.</p>
+                        <a href="project-details.html?id=swift_errands" class="project_link" target="_blank">Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio_card card_3">
-                <img src="./images/logos/angels_touch_salon.png" alt="" class="portfolio_img">
-                <div class="portfolio_content">
-                    <h4>Website</h4>
-                    <h3>Angels Touch Salon</h3>
-                    <p>A premium female hair salon dedicated to providing top-quality hair and beauty services with a touch of elegance and professionalism.</p>
-                    <a href="project-details.html?id=angels_touch" class="project_link" target="_blank">Case Study<i class="fas fa-arrow-right"></i></a>
+    
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="portfolio_card">
+                    <img src="./images/logos/angels_touch_salon.png" alt="" class="portfolio_img img-fluid">
+                    <div class="portfolio_content">
+                        <h4>Website</h4>
+                        <h3>Angels Touch Salon</h3>
+                        <p>A premium female hair salon dedicated to providing top-quality hair and beauty services with a touch of elegance and professionalism.</p>
+                        <a href="project-details.html?id=angels_touch" class="project_link" target="_blank">Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio_card card_4">
-                <img src="./images/logos/calculator.png" alt="" class="portfolio_img">
-                <div class="portfolio_content">
-                    <h4>Software</h4>
-                    <h3>ReactJS Calculator</h3>
-                    <p>A simple and interactive calculator built with ReactJS, allowing users to perform basic arithmetic operations efficiently.</p>
-                    <a href="project-details.html?id=web_calculator" class="project_link" target="_blank">Case Study<i class="fas fa-arrow-right"></i></a>
+    
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="portfolio_card">
+                    <img src="./images/logos/calculator.png" alt="" class="portfolio_img img-fluid">
+                    <div class="portfolio_content">
+                        <h4>Software</h4>
+                        <h3>ReactJS Calculator</h3>
+                        <p>A simple and interactive calculator built with ReactJS, allowing users to perform basic arithmetic operations efficiently.</p>
+                        <a href="project-details.html?id=web_calculator" class="project_link" target="_blank">Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio_card card_5">
-                <img src="./images/logos/btc_2.png" alt="" class="portfolio_img">
-                <div class="portfolio_content">
-                    <h4>Website</h4>
-                    <h3>Female Hair Salon</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, totam?</p>
-                    <a href="project-details.html?id=brim-tech" class="project_link" target="_blank">Case Study<i class="fas fa-arrow-right"></i></a>
+    
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="portfolio_card">
+                    <img src="./images/logos/btc_2.png" alt="" class="portfolio_img img-fluid">
+                    <div class="portfolio_content">
+                        <h4>Website</h4>
+                        <h3>Brim Tech Concepts</h3>
+                        <p>Expert in web development, software development, business startup consultancy, and loan acquisition consultancy to help businesses grow and succeed.</p>
+                        <a href="project-details.html?id=brim-tech" class="project_link" target="_blank">Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio_card card_6">
-                <img src="./images/logos/bt-vaults.png" alt="" class="portfolio_img">
-                <div class="portfolio_content">
-                    <h4>Software</h4>
-                    <h3>BT Vaults – Torrent Leeching App
-                    </h3>
-                    <p>A powerful single-page torrent leeching application designed to provide seamless torrent downloads, magnet linking, and secure ...</p>
-                    <a href="project-details.html?id=bt-vaults" class="project_link" target="_blank">Case Study<i class="fas fa-arrow-right"></i></a>
+    
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="portfolio_card">
+                    <img src="./images/logos/bt-vaults.png" alt="" class="portfolio_img img-fluid">
+                    <div class="portfolio_content">
+                        <h4>Software</h4>
+                        <h3>BT Vaults – Torrent Leeching App</h3>
+                        <p>A powerful single-page torrent leeching application designed to provide seamless torrent downloads, magnet linking, and secure ...</p>
+                        <a href="project-details.html?id=bt-vaults" class="project_link" target="_blank">Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-
-            <div class="portfolio_card card_7">
-                <img src="./images/logos/banner_1.png" alt="" class="portfolio_img">
-                <div class="portfolio_content">
-                    <h4>Website</h4>
-                    <h3>Vintage Hospitality</h3>
-                    <p>A fully responsive hospitality landing page built using HTML, CSS, and JavaScript, designed to showcase Vintage Hospitality’s services ...</p>
-                    <a href="project-details.html?id=vintage_hospital" class="project_link" target="_blank">Case Study<i class="fas fa-arrow-right"></i></a>
+    
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="portfolio_card">
+                    <img src="./images/logos/banner_1.png" alt="" class="portfolio_img img-fluid">
+                    <div class="portfolio_content">
+                        <h4>Website</h4>
+                        <h3>Vintage Hospitality</h3>
+                        <p>A fully responsive hospitality landing page built using HTML, CSS, and JavaScript, designed to showcase Vintage Hospitality’s services ...</p>
+                        <a href="project-details.html?id=vintage_hospital" class="project_link" target="_blank">Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-
-            <div class="portfolio_card card_8">
-                <img src="./images/logos/responsive-calculator.png" alt="" class="portfolio_img">
-                <div class="portfolio_content">
-                    <h4>Software</h4>
-                    <h3>Responsive Calculator Web App</h3>
-                    <p>A simple yet fully responsive calculator web application built using HTML, CSS, and JavaScript. This project demonstrates essential ...</p>
-                    <a href="project-details.html?id=responsive-calculator" class="project_link" target="_blank">Case Study<i class="fas fa-arrow-right"></i></a>
+    
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="portfolio_card">
+                    <img src="./images/logos/responsive-calculator.png" alt="" class="portfolio_img img-fluid">
+                    <div class="portfolio_content">
+                        <h4>Software</h4>
+                        <h3>Responsive Calculator Web App</h3>
+                        <p>A simple yet fully responsive calculator web application built using HTML, CSS, and JavaScript. This project demonstrates essential ...</p>
+                        <a href="project-details.html?id=responsive-calculator" class="project_link" target="_blank">Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-
         </div>
-
-        <div class="more"><a href="#portfolio" target="_blank">More Project</a></div>
-
-        <div class="project_idea_container">
+    
+        <div class="project_idea_container text-center mt-5">
             <h2>🚀 Do you have a project idea?</h2>
             <h2>Let’s discuss!</h2>
             <p>🔹 Let’s collaborate to bring your vision to life!</p>
-
-            <div class="project_idea_link"> <a href="https://wa.me/2347060649410?text=Hello%20Ayodeji!%20I'm%20interested%20in%20your%20services." target="_blank">📩 Ready to start? Let’s work together!<i
-                        class="fas fa-arrow-right"></i></a> </div>
+    
+            <div class="project_idea_link">
+                <a href="https://wa.me/2347060649410?text=Hello%20Ayodeji!%20I'm%20interested%20in%20your%20services." target="_blank">
+                    📩 Ready to start? Let’s work together! <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
         </div>
-
     </section>
     
-
+    
     <footer>
 
         <div class="logo footer_left foot">
@@ -175,13 +195,7 @@
 
     <button id="backToTopBtn" class="back-to-top" onclick="scrollToTop()">↑ Back to Top</button>
 
-    <!-- <script src="./js/blog.js"></script>
-    <script src="./js/testimonies.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="./js/project-details.js"></script>
-    <script src="./js/main.js"></script>
-
     
+    <script src="./js/main.js"></script>
 </body>
-
 </html>
