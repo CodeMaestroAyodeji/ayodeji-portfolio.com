@@ -356,7 +356,7 @@
     
     .contact .contact_container {
         width: calc(100% - 200px);
-        margin: 120px 0px !important;
+        margin: 10px 0px !important;
               
     }
     
@@ -696,7 +696,7 @@
 
     /* Blog Section */
     .blog {
-        margin-top: 400px;
+        margin-top: 1300px;
         padding-top: 100px 100px;
     }
 
@@ -748,7 +748,7 @@
     .contact .contact_container {
         padding: 25px;
         gap: 15px;
-        margin: 170px auto;
+        margin: -20px auto;
         position: absolute;
     }
 
@@ -1086,7 +1086,7 @@
     } */
 
     .blog {
-        margin-top: 750px;
+        margin-top: 1250px;
         padding: 50px 20px;
         height: fit-content;
     }
@@ -1590,7 +1590,7 @@
 
     /* blog section */
     .blog {
-        margin-top: 1500px;
+        margin-top: 2300px;
         padding: 50px 20px;
         height: fit-content;
     }
@@ -1968,8 +1968,9 @@
     /* Blog */
 
     .blog {
-        margin-top: 1400px;
+        margin-top: 2210px;
         padding: 25px 20px;
+        /* width: calc(375px - 25px); */
     }
 
     .section_title h2 {
@@ -1995,6 +1996,10 @@
     }
 
     /* Services */
+
+    .services {
+        
+    }
     .services .services_left h2 {
         font-size: 20px;
     }
@@ -2041,9 +2046,9 @@
     }
 
     .contact .contact_container {
-        width: 350px;
-        padding: 12.5px;
-        margin: -10px 12px;
+        width: 335px;
+        padding: 12px;
+        margin: -10px 20px;
     }
 
     .contact .contact_container .contact_right p {
@@ -2067,6 +2072,10 @@
         margin: 20px 0px;
     }
 
+    footer {
+        /* margin: 0; */
+    }
+
     .footer_middle .footer_nav .nav_bar {
         width: 325px;
         justify-content: space-evenly;
@@ -2079,6 +2088,8 @@
     .back-to-top {
         padding: 5px 10px;
         font-size: 10px;
+        /* left: 50px; */
+        width: max-content;
     }
  }
 
@@ -2197,7 +2208,7 @@
     }
 
     .blog {
-        margin-top: 1750px;
+        margin-top: 2650px;
     }
 
     .section_title {

@@ -91,29 +91,54 @@
     },
     "brim-tech": {
         title: "Brim Tech Concepts",
-        description: "On-demand delivery service provider.",
+        description: "Expert solutions in web development, software development, business startup consultancy, and loan acquisition consultancy to help businesses grow and succeed.",
         image: "./images/logos/btc_2.png",
-        overview: "A platform that connects users with fast and reliable delivery services.",
+        overview: "Your trusted partner in digital solutions and business growth. We specialize in Web Development, Software Development, Business Startup Consultancy, and Loan Acquisition Consultancy, providing tailored solutions to meet your needs.",
         features: [
-            "Automated order tracking",
-            "User-friendly booking interface",
-            "Secure payment integration"
+            "Basic Arithmetic Operations – Supports addition, subtraction, multiplication, and division.",
+            "User-Friendly Interface – Simple, clean, and easy to use.",
+            "Responsive Design – Works on desktops, tablets, and mobile devices.",
+            "Real-time Computation – Instantly updates results as inputs are entered.",
+            "Optimized Performance – Built using ReactJS for a smooth and fast experience."
         ],
-        liveLink: "https://swifterrands.com",
-        githubLink: "https://github.com/yourusername/swift_errands"
+        technologyStack: [
+            "ReactJS – Frontend framework for building interactive UI.",
+            "CSS – Styling for an intuitive and modern interface.",
+            "JavaScript (ES6) – Ensuring smooth logic implementation.",
+            "Netlify – Deployment for hosting and easy access."
+        ],
+
+        liveLink: "https://ajuwon2021.github.io/brimtechconcepts.com/",
+        githubLink: "https://github.com/Ajuwon2021/brimtechconcepts.com.git"
     },
     "bt-vaults": {
-        title: "BT Vaults",
-        description: "On-demand delivery service provider.",
+        title: "BT Vaults – Torrent Leeching App",
+        description: "A powerful single-page torrent leeching application designed to provide seamless torrent downloads, magnet linking, and secure user authentication with integrated payment gateways.",
         image: "./images/logos/bt-vaults.png",
-        overview: "A platform that connects users with fast and reliable delivery services.",
+        overview: "BT Vaults is a modern torrent leeching platform that enables users to download torrents with ease while offering advanced features like external torrent search, file uploads, and magnet linking. Built on the MEAN stack with React and Vite, the app delivers high-speed performance and a smooth user experience. It also integrates Google ReCAPTCHA, secure authentication, and multiple payment gateways to enhance security and usability.",
         features: [
-            "Automated order tracking",
-            "User-friendly booking interface",
-            "Secure payment integration"
+            "Single-Page Application (SPA) – Fast and efficient UI with React and Vite.",
+            "External Torrent Search Engine – Find and fetch torrents from multiple sources.",
+            "Torrent File Upload – Upload and process torrent files for instant access.",
+            "Torrent Magnetting – Convert magnet links for direct downloads.",
+            "User Authentication & Verification – Secure login, registration, and account verification.",
+            "Google reCAPTCHA – Protects against bots and spam.",
+            "CORS Enabled – Secure cross-origin requests for seamless API access.",
+            "Payment Gateway Integration – Supports multiple payment methods for premium features."
         ],
-        liveLink: "https://swifterrands.com",
-        githubLink: "https://github.com/yourusername/swift_errands"
+
+        technologyStack: [
+            "MongoDB – NoSQL database for efficient data management.",
+            "Express.js – Backend framework for API handling.",
+            "Angular – Frontend framework for smooth UI interactions.",
+            "Node.js – Server-side JavaScript runtime for performance optimization.",
+            "Vite – Superfast development server and build tool.",
+            "React.js – Dynamic UI rendering for an enhanced user experience.",
+            "JWT Authentication – Secure user login and session management.",
+            "Google reCAPTCHA – Prevents bot attacks and spam."
+        ],
+        liveLink: "https://btvaultsapp-s72t.vercel.app/",
+        githubLink: "https://github.com/CodeMaestroAyodeji/btvaultsapp.git"
     },
         "vintage_hospital": {
         title: "Vintage Hospitality",
